@@ -9,24 +9,18 @@ Add
 
 I've provided a pretty simple app highlighting how to use the notification class. But briefly, here's how it works:
 
-	// 1
-	AWNotification *notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStyleRoundedRect];
-	
-	// 2
-	notification.message = @"Trying very hard...";
-	
-	//3
+	// Start some long-running process you want the user to know about...
+
+	AWNotification *notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStylePill];
+	notification.message = @"Getting to work...";
+	notification.center = CGPointMake(160.0, 400.0); // optionally move the notification view around
 	[notification show];
 	
-Pretty straight-forward, eh?
-There are three notification styles
-You'll want to hold onto the AWNotification instance as an ivar or a property, so you can modify and/or hide it later. 
-To change the displayed text, just alter the message property:
-
-	notification.message = @"Almost done...";
+	// ... the status of the process changes
+	notification.message = @"Almost finished..."
 	
-And then, once whatever task you've been doing is done, you can close the notification with one of three calls:
-
+	// ... and then, finally, you're done
+	
 	if (success)
 		[notification hideWithSuccessMessage:@"We did it!"];
 		
@@ -37,8 +31,15 @@ And then, once whatever task you've been doing is done, you can close the notifi
 		[notification hideWithMessage:@"Age of Aquarius"]
 
  	[notification release];
-	
-I think that's it for now... 
+
+Pretty straight-forward, eh?
+
+There are three notification styles:
+- AWNotificationStyleRoundedRect (think of the Twitter app, formerly Tweetie 2, when publishing to Instapaper)
+- AWNotificationStylePill (thin rounded rectangle)
+- AWNotificationStyleFullScreen 
+
+Also, you can modify the center of the notification view to move it around.
 Oh, and you're free to do whatever you want with this code, blah blah blah, for commercial use or otherwise, without paying me. MIT LICENSE GO:
 
  Copyright (c) 2010 Alex Wiltschko

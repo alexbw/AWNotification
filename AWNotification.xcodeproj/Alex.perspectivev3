@@ -254,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>322</real>
+								<real>422</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -273,13 +273,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {322, 742}}</string>
+							<string>{{0, 0}, {422, 742}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -289,19 +289,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {339, 760}}</string>
+						<string>{{0, 0}, {439, 760}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>322</real>
+							<real>422</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-1 155 999 801 0 0 1680 1028 </string>
+						<string>-1 155 1199 801 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>339pt</string>
+					<string>439pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FABE3E971225677F00BCE045</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AWNotification.h</string>
+								<string>AWNotificationViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,19 +322,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FABE3E981225677F00BCE045</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AWNotification.h</string>
+										<string>AWNotificationViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FABE3EEB12256CFA00BCE045</string>
+										<string>FABE3EFF12256E9A00BCE045</string>
 										<key>history</key>
 										<array>
 											<string>FABE3EE412256C8900BCE045</string>
 											<string>FABE3EE512256C8900BCE045</string>
-											<string>FABE3EE612256C8900BCE045</string>
-											<string>FABE3EE712256C8900BCE045</string>
 											<string>FABE3EE812256C8900BCE045</string>
-											<string>FABE3EE912256C8900BCE045</string>
+											<string>FABE3EEE12256E1F00BCE045</string>
+											<string>FABE3EEF12256E1F00BCE045</string>
+											<string>FABE3EF012256E1F00BCE045</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,9 +348,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {655, 446}}</string>
+								<string>{{0, 0}, {755, 446}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-1 155 999 801 0 0 1680 1028 </string>
+								<string>-1 155 1199 801 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -389,9 +389,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {655, 282}}</string>
+										<string>{{10, 27}, {755, 282}}</string>
 										<key>RubberWindowFrame</key>
-										<string>-1 155 999 801 0 0 1680 1028 </string>
+										<string>-1 155 1199 801 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -438,7 +438,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>655pt</string>
+					<string>755pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -654,7 +654,7 @@
 		<string>/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/AWNotification.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-1 155 999 801 0 0 1680 1028 </string>
+	<string>-1 155 1199 801 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

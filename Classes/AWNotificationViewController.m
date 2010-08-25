@@ -32,8 +32,9 @@
 {
 	[super viewDidAppear:animated];
 	
-	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStyleRoundedRect];
+	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStylePill];
 	notification.message = @"Trying really hard...";
+	notification.frame = 
 	[notification show];
 	
 }

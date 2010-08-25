@@ -43,7 +43,7 @@
 		self.userInteractionEnabled = NO;
 		
 		switch (style) {
-			case AWNotificationStyleDimScreen:
+			case AWNotificationStyleFullScreen:
 				
 				frame = [[UIScreen mainScreen] bounds];
 				font = [UIFont fontWithName:kDefaultFont size:kFontSizeFullScreen];

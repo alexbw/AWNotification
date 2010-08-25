@@ -40,7 +40,7 @@ CGRect CGRectMakeCentered(CGRect containingRect, float width, float height);
 
 
 typedef enum {
-	AWNotificationStyleDimScreen,
+	AWNotificationStyleFullScreen,
 	AWNotificationStyleRoundedRect,
 	AWNotificationStylePill
 } AWNotificationStyle;

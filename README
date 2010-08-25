@@ -19,6 +19,7 @@ I've provided a pretty simple app highlighting how to use the notification class
 	[notification show];
 	
 Pretty straight-forward, eh?
+There are three notification styles
 You'll want to hold onto the AWNotification instance as an ivar or a property, so you can modify and/or hide it later. 
 To change the displayed text, just alter the message property:
 

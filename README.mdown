@@ -3,9 +3,9 @@ AWNotification
 
 AWNotification is a simple class to show non-interactive pop-up views. This is useful e.g. if you're performing a long-running task that the user cares about.
 
-![Pill Normal](Screenshots/Pill_Normal.png "Pill Normal")
-![Pill Success](Screenshots/Pill_Success.png "Pill Success")
-![Pill Failure](Screenshots/Pill_Failure.png "Pill Failure")  
+![Pill Normal](http://github.com/alexbw/AWNotification/blob/master/Screenshots/Pill_Normal.png "Pill Normal")
+![Pill Success](http://github.com/alexbw/AWNotification/blob/master/Screenshots/Pill_Success.png "Pill Success")
+![Pill Failure](http://github.com/alexbw/AWNotification/blob/master/Screenshots/Pill_Failure.png "Pill Failure")  
 
 ![Rounded Rect Normal](Screenshots/RoundedRect_Normal.png "Rounded Rect Normal")
 ![Rounded Rect Success](Screenshots/RoundedRect_Success.png "Rounded Rect Success")

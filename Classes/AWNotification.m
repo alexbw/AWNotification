@@ -174,12 +174,15 @@
 	message = newMessage;
 	messageLabel.text = message;
 	
-	if (style == AWNotificationStylePill) { // then we're going to resize the message box
+	if (style == AWNotificationStylePill) { // then we're going to resize the message box. It'll look real nice!
 
-		CGSize newLabelSize = [message sizeWithFont:messageLabel.font];		
-		CGRect newFrame = CGRectMakeCentered([[UIScreen mainScreen] bounds], 
-											 newLabelSize.width + messageLabel.frame.origin.x + 20.0, 
-											 kDefaultHeightRoundedThin);
+		CGSize newLabelSize = [message sizeWithFont:messageLabel.font];
+		float oldXCenter = self.center.x;
+		CGRect newFrame = CGRectMake(0, 
+									 self.frame.origin.y, 
+									 newLabelSize.width + messageLabel.frame.origin.x + 20.0, 
+									 kDefaultHeightRoundedThin);
+		newFrame.origin.x = oldXCenter - newFrame.size.width/2.0;
 
 		
 		[UIView animateWithDuration:0.25

@@ -34,7 +34,8 @@
 	
 	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStylePill];
 	notification.message = @"Trying really hard...";
-	notification.frame = 
+	notification.center = CGPointMake(160.0, 400.0f);
+	
 	[notification show];
 	
 }

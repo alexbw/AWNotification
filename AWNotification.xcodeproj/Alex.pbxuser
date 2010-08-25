@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {694, 702}}";
-			sepNavSelRange = "{1478, 0}";
-			sepNavVisRange = "{1155, 593}";
+			sepNavIntBoundsRect = "{{0, 0}, {694, 715}}";
+			sepNavSelRange = "{1529, 0}";
+			sepNavVisRange = "{1078, 667}";
 			sepNavWindowFrame = "{{840, 0}, {840, 1028}}";
 		};
 	};
@@ -126,6 +126,18 @@
 			FABE3EF912256E7900BCE045 /* PBXTextBookmark */ = FABE3EF912256E7900BCE045 /* PBXTextBookmark */;
 			FABE3EFC12256E8300BCE045 /* PBXTextBookmark */ = FABE3EFC12256E8300BCE045 /* PBXTextBookmark */;
 			FABE3EFF12256E9A00BCE045 /* PBXTextBookmark */ = FABE3EFF12256E9A00BCE045 /* PBXTextBookmark */;
+			FABE3F0012256EC000BCE045 /* PBXBookmark */ = FABE3F0012256EC000BCE045 /* PBXBookmark */;
+			FABE3F01122570D700BCE045 /* PBXTextBookmark */ = FABE3F01122570D700BCE045 /* PBXTextBookmark */;
+			FABE3F04122570D700BCE045 /* PBXTextBookmark */ = FABE3F04122570D700BCE045 /* PBXTextBookmark */;
+			FABE3F071225715300BCE045 /* PBXTextBookmark */ = FABE3F071225715300BCE045 /* PBXTextBookmark */;
+			FABE3F081225715300BCE045 /* PBXTextBookmark */ = FABE3F081225715300BCE045 /* PBXTextBookmark */;
+			FABE3F0D1225717500BCE045 /* XCBuildMessageTextBookmark */ = FABE3F0D1225717500BCE045 /* XCBuildMessageTextBookmark */;
+			FABE3F0E1225717500BCE045 /* PBXTextBookmark */ = FABE3F0E1225717500BCE045 /* PBXTextBookmark */;
+			FABE3F0F1225717500BCE045 /* PBXTextBookmark */ = FABE3F0F1225717500BCE045 /* PBXTextBookmark */;
+			FABE3F101225717500BCE045 /* PBXTextBookmark */ = FABE3F101225717500BCE045 /* PBXTextBookmark */;
+			FABE3F111225717500BCE045 /* PBXTextBookmark */ = FABE3F111225717500BCE045 /* PBXTextBookmark */;
+			FABE3F131225718800BCE045 /* PBXTextBookmark */ = FABE3F131225718800BCE045 /* PBXTextBookmark */;
+			FABE3F141225718800BCE045 /* PBXTextBookmark */ = FABE3F141225718800BCE045 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FABE3E751225667400BCE045 /* Source Control */;
 		userBuildSettings = {
@@ -265,7 +277,7 @@
 		fRef = FABE3E731225667400BCE045 /* AWNotification.m */;
 		name = "AWNotification.m: 222";
 		rLen = 0;
-		rLoc = 7783;
+		rLoc = 7891;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 6451;
@@ -285,7 +297,7 @@
 		fRef = FABE3E731225667400BCE045 /* AWNotification.m */;
 		name = "AWNotification.m: 222";
 		rLen = 0;
-		rLoc = 7783;
+		rLoc = 7891;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 6637;
@@ -305,7 +317,7 @@
 		fRef = FABE3E731225667400BCE045 /* AWNotification.m */;
 		name = "AWNotification.m: 222";
 		rLen = 0;
-		rLoc = 7783;
+		rLoc = 7891;
 		rType = 0;
 		vrLen = 1903;
 		vrLoc = 4019;
@@ -345,7 +357,7 @@
 		fRef = FABE3E731225667400BCE045 /* AWNotification.m */;
 		name = "AWNotification.m: 222";
 		rLen = 0;
-		rLoc = 7783;
+		rLoc = 7891;
 		rType = 0;
 		vrLen = 2151;
 		vrLoc = 1674;
@@ -572,16 +584,16 @@
 	};
 	FABE3EE112256B8C00BCE045 /* AWNotification.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 910}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1198, 923}}";
 			sepNavSelRange = "{1628, 0}";
-			sepNavVisRange = "{1069, 734}";
+			sepNavVisRange = "{681, 1664}";
 		};
 	};
 	FABE3EE212256B8C00BCE045 /* AWNotification.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 4056}}";
-			sepNavSelRange = "{50, 0}";
-			sepNavVisRange = "{0, 1263}";
+			sepNavIntBoundsRect = "{{0, 0}, {1198, 3900}}";
+			sepNavSelRange = "{6959, 0}";
+			sepNavVisRange = "{0, 1780}";
 		};
 	};
 	FABE3EE412256C8900BCE045 /* PBXTextBookmark */ = {
@@ -709,7 +721,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
 		name = "AWNotificationViewController.m: 37";
 		rLen = 0;
-		rLoc = 1478;
+		rLoc = 1531;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 1078;
@@ -719,7 +731,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
 		name = "AWNotificationViewController.m: 38";
 		rLen = 0;
-		rLoc = 1501;
+		rLoc = 1531;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 1078;
@@ -739,9 +751,119 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
 		name = "AWNotificationViewController.m: 36";
 		rLen = 0;
-		rLoc = 1478;
+		rLoc = 1531;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 1155;
+	};
+	FABE3F0012256EC000BCE045 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FABE3EE212256B8C00BCE045 /* AWNotification.m */;
+	};
+	FABE3F01122570D700BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
+		name = "AWNotificationViewController.m: 37";
+		rLen = 0;
+		rLoc = 1531;
+		rType = 0;
+		vrLen = 549;
+		vrLoc = 1172;
+	};
+	FABE3F04122570D700BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABE3EE212256B8C00BCE045 /* AWNotification.m */;
+		name = "AWNotification.m: 180";
+		rLen = 0;
+		rLoc = 6726;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 6116;
+	};
+	FABE3F071225715300BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
+		name = "AWNotificationViewController.m: 37";
+		rLen = 0;
+		rLoc = 1531;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 1155;
+	};
+	FABE3F081225715300BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABE3EE212256B8C00BCE045 /* AWNotification.m */;
+		name = "AWNotification.m: 185";
+		rLen = 0;
+		rLoc = 6959;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 6116;
+	};
+	FABE3F0D1225717500BCE045 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Void value not ignored as it ought to be";
+		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 38;
+		rType = 1;
+	};
+	FABE3F0E1225717500BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
+		name = "AWNotificationViewController.m: 37";
+		rLen = 0;
+		rLoc = 1513;
+		rType = 0;
+		vrLen = 667;
+		vrLoc = 1078;
+	};
+	FABE3F0F1225717500BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABE3EE212256B8C00BCE045 /* AWNotification.m */;
+		name = "AWNotification.m: 185";
+		rLen = 0;
+		rLoc = 6959;
+		rType = 0;
+		vrLen = 1780;
+		vrLoc = 0;
+	};
+	FABE3F101225717500BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABE3EE112256B8C00BCE045 /* AWNotification.h */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	FABE3F111225717500BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABE3EE112256B8C00BCE045 /* AWNotification.h */;
+		name = "AWNotification.h: 42";
+		rLen = 0;
+		rLoc = 1628;
+		rType = 0;
+		vrLen = 1664;
+		vrLoc = 681;
+	};
+	FABE3F131225718800BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */;
+		name = "AWNotificationViewController.m: 37";
+		rLen = 0;
+		rLoc = 1529;
+		rType = 0;
+		vrLen = 667;
+		vrLoc = 1078;
+	};
+	FABE3F141225718800BCE045 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABE3EE112256B8C00BCE045 /* AWNotification.h */;
+		name = "AWNotification.h: 42";
+		rLen = 0;
+		rLoc = 1628;
+		rType = 0;
+		vrLen = 1664;
+		vrLoc = 681;
 	};
 }

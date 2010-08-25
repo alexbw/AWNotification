@@ -197,7 +197,49 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>FABE3F02122570D700BCE045</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>AWNotification.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>FABE3F03122570D700BCE045</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>AWNotification.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>FABE3F141225718800BCE045</string>
+						<key>history</key>
+						<array>
+							<string>FABE3F0F1225717500BCE045</string>
+							<string>FABE3F101225717500BCE045</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1257, 746}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>88 173 1257 787 0 0 1680 1028 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>810</integer>
@@ -230,6 +272,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,8 +317,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>1</integer>
+									<integer>14</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -307,8 +351,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,7 +368,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FABE3EFF12256E9A00BCE045</string>
+										<string>FABE3F131225718800BCE045</string>
 										<key>history</key>
 										<array>
 											<string>FABE3EE412256C8900BCE045</string>
@@ -334,7 +376,7 @@
 											<string>FABE3EE812256C8900BCE045</string>
 											<string>FABE3EEE12256E1F00BCE045</string>
 											<string>FABE3EEF12256E1F00BCE045</string>
-											<string>FABE3EF012256E1F00BCE045</string>
+											<string>FABE3F0D1225717500BCE045</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -390,8 +432,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {755, 282}}</string>
-										<key>RubberWindowFrame</key>
-										<string>-1 155 1199 801 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -429,7 +469,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {755, 282}}</string>
+										<key>RubberWindowFrame</key>
+										<string>-1 155 1199 801 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -651,6 +693,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FABE3F02122570D700BCE045</string>
 		<string>/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/AWNotification.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

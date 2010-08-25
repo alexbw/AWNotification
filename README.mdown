@@ -3,17 +3,17 @@ AWNotification
 
 AWNotification is a simple class to show non-interactive pop-up views. This is useful e.g. if you're performing a long-running task that the user cares about.
 
-![Pill Normal](http://github.com/alexbw/AWNotification/raw/master/Screenshots/Pill_Normal.png/Pill_Normal.png "Pill Normal")
-![Pill Success](http://github.com/alexbw/AWNotification/blob/master/Screenshots/Pill_Success.png "Pill Success")
-![Pill Failure](http://github.com/alexbw/AWNotification/blob/master/Screenshots/Pill_Failure.png "Pill Failure")  
+![Pill Normal](http://github.com/alexbw/AWNotification/raw/master/Screenshots/Pill_Normal.png "Pill Normal")
+![Pill Success](http://github.com/alexbw/AWNotification/raw/master/Screenshots/Pill_Success.png "Pill Success")
+![Pill Failure](http://github.com/alexbw/AWNotification/raw/master/Screenshots/Pill_Failure.png "Pill Failure")  
 
-![Rounded Rect Normal](Screenshots/RoundedRect_Normal.png "Rounded Rect Normal")
-![Rounded Rect Success](Screenshots/RoundedRect_Success.png "Rounded Rect Success")
-![Rounded Rect Failure](Screenshots/RoundedRect_Failure.png "Rounded Rect Failure")   
+![Rounded Rect Normal](http://github.com/alexbw/AWNotification/raw/master/Screenshots/RoundedRect_Normal.png "Rounded Rect Normal")
+![Rounded Rect Success](http://github.com/alexbw/AWNotification/raw/master/Screenshots/RoundedRect_Success.png "Rounded Rect Success")
+![Rounded Rect Failure](http://github.com/alexbw/AWNotification/raw/master/Screenshots/RoundedRect_Failure.png "Rounded Rect Failure")   
 
-![Full Screen Normal](Screenshots/FullScreen_Normal.png "Full Screen Normal")
-![Full Screen Success](Screenshots/FullScreen_Success.png "Full Screen Success")
-![Full Screen Failure](Screenshots/FullScreen_Failure.png "Full Screen Failure")  
+![Full Screen Normal](http://github.com/alexbw/AWNotification/raw/master/Screenshots/FullScreen_Normal.png "Full Screen Normal")
+![Full Screen Success](http://github.com/alexbw/AWNotification/raw/master/Screenshots/FullScreen_Success.png "Full Screen Success")
+![Full Screen Failure](http://github.com/alexbw/AWNotification/raw/master/Screenshots/FullScreen_Failure.png "Full Screen Failure")  
 
 
 TO GET STARTED IN YOUR PROJECT, add:

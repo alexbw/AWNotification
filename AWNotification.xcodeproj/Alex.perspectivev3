@@ -197,49 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>FABE3EA61225678100BCE045</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>AWNotification.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>FABE3EA71225678100BCE045</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>AWNotification.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>FABE3EE01225688B00BCE045</string>
-						<key>history</key>
-						<array>
-							<string>FABE3EDD1225688400BCE045</string>
-							<string>FABE3ED21225685D00BCE045</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1257, 746}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>65 194 1257 787 0 0 1680 1028 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>810</integer>
@@ -298,7 +256,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>185</real>
+								<real>322</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -317,13 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>13</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {185, 742}}</string>
+							<string>{{0, 0}, {322, 742}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -333,19 +291,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {202, 760}}</string>
+						<string>{{0, 0}, {339, 760}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>185</real>
+							<real>322</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>75 168 999 801 0 0 1680 1028 </string>
+						<string>-1 155 999 801 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>202pt</string>
+					<string>339pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -356,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>FABE3E971225677F00BCE045</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AWNotificationViewController.m</string>
+								<string>AWNotification.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -364,14 +322,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>FABE3E981225677F00BCE045</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AWNotificationViewController.m</string>
+										<string>AWNotification.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FABE3EDF1225688B00BCE045</string>
+										<string>FABE3EEA12256C8900BCE045</string>
 										<key>history</key>
 										<array>
-											<string>FABE3E9B1225677F00BCE045</string>
+											<string>FABE3EE412256C8900BCE045</string>
+											<string>FABE3EE512256C8900BCE045</string>
+											<string>FABE3EE612256C8900BCE045</string>
+											<string>FABE3EE712256C8900BCE045</string>
+											<string>FABE3EE812256C8900BCE045</string>
+											<string>FABE3EE912256C8900BCE045</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -385,9 +348,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {792, 446}}</string>
+								<string>{{0, 0}, {655, 446}}</string>
 								<key>RubberWindowFrame</key>
-								<string>75 168 999 801 0 0 1680 1028 </string>
+								<string>-1 155 999 801 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -410,9 +373,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {792, 282}}</string>
+										<string>{{10, 27}, {655, 282}}</string>
 										<key>RubberWindowFrame</key>
-										<string>75 168 999 801 0 0 1680 1028 </string>
+										<string>-1 155 999 801 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -475,7 +438,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>792pt</string>
+					<string>655pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -689,10 +652,9 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/AWNotification.xcodeproj</string>
-		<string>FABE3EA61225678100BCE045</string>
 	</array>
 	<key>WindowString</key>
-	<string>75 168 999 801 0 0 1680 1028 </string>
+	<string>-1 155 999 801 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

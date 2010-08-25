@@ -20,7 +20,6 @@ I've provided a pretty simple app highlighting how to use the notification class
 	notification.message = @"Almost finished..."
 	
 	// ... and then, finally, you're done
-	
 	if (success)
 		[notification hideWithSuccessMessage:@"We did it!"];
 		

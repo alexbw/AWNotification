@@ -16,14 +16,17 @@ AWNotification is a simple class to show non-interactive pop-up views. This is u
 ![Full Screen Failure](http://github.com/alexbw/AWNotification/raw/master/Screenshots/FullScreen_Failure.png "Full Screen Failure")  
 
 
-TO GET STARTED IN YOUR PROJECT, add:
+How to use the darn thing
+=========================
+
+**First, to your project add:**
 
 * AWNotification.m
 * AWNotification.h
 * x.png
 * check.png
 
-I've provided a pretty simple app highlighting how to use the notification class. Check AWNotificationViewController. But briefly, here's how it works:
+Briefly, here's how it works:
 
 	// Start some long-running process you want the user to know about...
 

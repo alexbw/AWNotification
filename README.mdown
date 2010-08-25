@@ -1,0 +1,79 @@
+AWNotification
+=======
+
+AWNotification is a simple class to show non-interactive pop-up views. This is useful e.g. if you're performing a long-running task that the user cares about.
+
+![Pill Normal](Screenshots/Pill_Normal.png "Pill Normal")
+![Pill Success](Screenshots/Pill_Success.png "Pill Success")
+![Pill Failure](Screenshots/Pill_Failure.png "Pill Failure")  
+
+![Rounded Rect Normal](Screenshots/RoundedRect_Normal.png "Rounded Rect Normal")
+![Rounded Rect Success](Screenshots/RoundedRect_Success.png "Rounded Rect Success")
+![Rounded Rect Failure](Screenshots/RoundedRect_Failure.png "Rounded Rect Failure")   
+
+![Full Screen Normal](Screenshots/FullScreen_Normal.png "Full Screen Normal")
+![Full Screen Success](Screenshots/FullScreen_Success.png "Full Screen Success")
+![Full Screen Failure](Screenshots/FullScreen_Failure.png "Full Screen Failure")  
+
+
+TO GET STARTED IN YOUR PROJECT, add:
+
+* AWNotification.m
+* AWNotification.h
+* x.png
+* check.png
+
+I've provided a pretty simple app highlighting how to use the notification class. Check AWNotificationViewController. But briefly, here's how it works:
+
+	// Start some long-running process you want the user to know about...
+
+	AWNotification *notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStylePill];
+	notification.message = @"Getting to work...";
+	notification.center = CGPointMake(160.0, 400.0); // optionally move the notification view around
+	[notification show];
+	
+	// ... the status of the process changes
+	notification.message = @"Almost finished..."
+	
+	// ... and then, finally, you're done
+	if (success)
+		[notification hideWithSuccessMessage:@"We did it!"];
+		
+	else if (failure)
+		[notification hideWithFailureMessage:@"Sorry, didn't work."];
+		
+	else
+		[notification hideWithMessage:@"Age of Aquarius"]
+
+ 	[notification release];
+
+Pretty straight-forward, eh?
+
+There are three notification styles:
+
+- AWNotificationStyleRoundedRect (think of the Twitter app, formerly Tweetie 2, when publishing to Instapaper)
+- AWNotificationStylePill (thin rounded rectangle)
+- AWNotificationStyleFullScreen 
+
+Also, you can modify the center of the notification view to move it around.
+Oh, and you're free to do whatever you want with this code, blah blah blah, for commercial use or otherwise, without paying me. MIT LICENSE GO:
+
+ Copyright (c) 2010 Alex Wiltschko
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.

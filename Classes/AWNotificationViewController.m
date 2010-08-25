@@ -32,10 +32,8 @@
 {
 	[super viewDidAppear:animated];
 	
-	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStylePill];
-	notification.message = @"Trying really hard...";
-	notification.center = CGPointMake(160.0, 400.0f);
-	
+	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStyleFullScreen];
+	notification.message = @"Trying really hard...";	
 	[notification show];
 	
 }
@@ -43,7 +41,7 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	[notification hideWithFailureMessage:@"D'oh!"];
+	[notification hideWithFailureMessage:@"Ah, jeez..."];
 }
 
 - (void)dealloc {

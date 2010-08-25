@@ -1,7 +1,7 @@
 TAWNotification
 v7
 r0
-t304443788.723885
+t304448920.905301
 cCheck dependencies
 cProcessInfoPlistFile /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/Info.plist AWNotification-Info.plist
 cCompileXIB /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/MainWindow.xib
@@ -105,9 +105,9 @@ i<UIKit/UIKit.h>
 i"AWNotification.h"
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m
-c000000004C753A0600000000000006D7
-t1282750982
-s1751
+c000000004C754E1600000000000006AF
+t1282756118
+s1711
 i"AWNotificationViewController.h"
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/MainWindow.xib
@@ -129,24 +129,24 @@ t1282750110
 s49668
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotificationViewController.o
-t1282750988
-s38740
+t1282756120
+s38152
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/main.o
 t1282748238
 s6328
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app
-t1282750988
+t1282756120
 s306
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app.dSYM
-t1282750988
+t1282756120
 s102
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification
-t1282750988
-s37140
+t1282756120
+s37056
 
 N/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotificationViewController.nib
 t1282750988
@@ -199,7 +199,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies304443788#304443788#0(0"0(0#1#0"8649893696#0"0#
+lSLF07#2@18"Check dependencies304448920#304448920#0(0"0(0#1#0"8664298240#0"0#
 
 CCompileC build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotification.o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotification.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s304443753.710457
@@ -230,8 +230,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationAppDelegate.m304442910#304442910#0(0"0(0#0#87"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationAppDelegate.m8642558752#2296"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-generated-files.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-own-target-headers.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-all-target-headers.hmap -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-project-headers.hmap -F/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/include -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources/i386 -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources -include /var/folders/SE/SEJ0cZDcGXS0Zc6WyWgXU++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AWNotification_Prefix-ftxdamnfdueqbwaifevsuykghhbm/AWNotification_Prefix.pch -c /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationAppDelegate.m -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotificationAppDelegate.o0#
 
 CCompileC build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotificationViewController.o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304443788.561502
-e304443788.653852
+s304448920.712660
+e304448920.845756
 r1
 xCompileC
 xbuild/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotificationViewController.o
@@ -240,7 +240,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m304443788#304443788#0(0"0(0#0#90"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m8652136320#2302"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-generated-files.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-own-target-headers.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-all-target-headers.hmap -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-project-headers.hmap -F/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/include -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources/i386 -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources -include /var/folders/SE/SEJ0cZDcGXS0Zc6WyWgXU++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AWNotification_Prefix-ftxdamnfdueqbwaifevsuykghhbm/AWNotification_Prefix.pch -c /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotificationViewController.o0#
+lSLF07#2@98"Compile /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m304448920#304448920#0(0"0(0#0#90"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m8666086816#2302"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-generated-files.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-own-target-headers.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-all-target-headers.hmap -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-project-headers.hmap -F/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/include -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources/i386 -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources -include /var/folders/SE/SEJ0cZDcGXS0Zc6WyWgXU++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AWNotification_Prefix-ftxdamnfdueqbwaifevsuykghhbm/AWNotification_Prefix.pch -c /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationViewController.m -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotificationViewController.o0#
 
 CCompileC build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/main.o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s304441038.149582
@@ -290,23 +290,23 @@ xx.png
 lSLF07#2@10"Copy x.png304441036#304441036#0(0"0(0#0#57"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/x.png8643703712#557"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/x.png /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app0#
 
 CGenerateDSYMFile /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app.dSYM /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification
-s304443788.692386
-e304443788.720635
+s304448920.873472
+e304448920.901227
 r1
 xGenerateDSYMFile
 x/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app.dSYM
 x/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/AWNotification.app.dSYM build/Debug-iphonesimulator/AWNotification.app/AWNotification304443788#304443788#0(0"0(0#0#113"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification8650932128#505"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app.dSYM0#
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/AWNotification.app.dSYM build/Debug-iphonesimulator/AWNotification.app/AWNotification304448920#304448920#0(0"0(0#0#113"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification8668258560#505"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app.dSYM0#
 
 CLd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification normal i386
-s304443788.653998
-e304443788.692246
+s304448920.845857
+e304448920.873304
 r1
 xLd
 x/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification
 xnormal
 xi386
-lSLF07#2@118"Link /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification304443788#304443788#0(0"0(0#0#0"8651747872#1062"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -F/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -filelist /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotification.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification0#
+lSLF07#2@118"Link /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification304448920#304448920#0(0"0(0#0#0"8668814144#1062"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -F/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -filelist /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/Objects-normal/i386/AWNotification.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/AWNotification0#
 
 CProcessInfoPlistFile /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app/Info.plist AWNotification-Info.plist
 s304441036.799040
@@ -331,10 +331,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile AWNotification_Prefix.pch304441037#304441038#0(0"0(0#0#77"/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/AWNotification_Prefix.pch8649300160#2118"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-generated-files.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-own-target-headers.hmap -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-all-target-headers.hmap -iquote /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/AWNotification-project-headers.hmap -F/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/include -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources/i386 -I/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/AWNotification.build/Debug-iphonesimulator/AWNotification.build/DerivedSources -c /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/AWNotification_Prefix.pch -o /var/folders/SE/SEJ0cZDcGXS0Zc6WyWgXU++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/AWNotification_Prefix-ftxdamnfdueqbwaifevsuykghhbm/AWNotification_Prefix.pch.gch0#
 
 CTouch /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app
-s304443788.720759
-e304443788.723819
+s304448920.901335
+e304448920.905226
 r1
 xTouch
 x/Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app
-lSLF07#2@104"Touch /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app304443788#304443788#0(0"0(0#0#0"8644169728#373"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app0#
+lSLF07#2@104"Touch /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app304448920#304448920#0(0"0(0#0#0"8667115360#373"    cd /Users/Alex/Dropbox/iPhone/Utilities/AWNotification    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/build/Debug-iphonesimulator/AWNotification.app0#
 

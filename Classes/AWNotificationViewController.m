@@ -33,11 +33,16 @@
 	[super viewDidAppear:animated];
 	
 	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStyleFullScreen];
-	notification.message = @"Trying really hard...";	
+	notification.message = @"Trying really hard...";
+//	[notification showInView:self.view];
 	[notification show];
 	
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{ 
+	return YES;
+}
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {

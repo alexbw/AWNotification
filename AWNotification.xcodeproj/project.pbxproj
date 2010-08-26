@@ -17,7 +17,8 @@
 		28D7ACF80DDB3853001CB0EB /* AWNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */; };
 		FABE3E791225668B00BCE045 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = FABE3E771225668B00BCE045 /* check.png */; };
 		FABE3E7A1225668B00BCE045 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = FABE3E781225668B00BCE045 /* x.png */; };
-		FABE3EE312256B8C00BCE045 /* AWNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE3EE212256B8C00BCE045 /* AWNotification.m */; };
+		FABE3EE312256B8C00BCE045 /* AWNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE3EE212256B8C00BCE045 /* AWNotificationView.m */; };
+		FAE1114D122701EB006ED12A /* AWNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1114C122701EB006ED12A /* AWNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +37,10 @@
 		8D1107310486CEB800E47090 /* AWNotification-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AWNotification-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FABE3E771225668B00BCE045 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		FABE3E781225668B00BCE045 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
-		FABE3EE112256B8C00BCE045 /* AWNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWNotification.h; sourceTree = "<group>"; };
-		FABE3EE212256B8C00BCE045 /* AWNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNotification.m; sourceTree = "<group>"; };
+		FABE3EE112256B8C00BCE045 /* AWNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWNotificationView.h; sourceTree = "<group>"; };
+		FABE3EE212256B8C00BCE045 /* AWNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNotificationView.m; sourceTree = "<group>"; };
+		FAE1114B122701EB006ED12A /* AWNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWNotification.h; sourceTree = "<group>"; };
+		FAE1114C122701EB006ED12A /* AWNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +60,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FABE3EE112256B8C00BCE045 /* AWNotification.h */,
-				FABE3EE212256B8C00BCE045 /* AWNotification.m */,
+				FABE3EE112256B8C00BCE045 /* AWNotificationView.h */,
+				FABE3EE212256B8C00BCE045 /* AWNotificationView.m */,
 				1D3623240D0F684500981E51 /* AWNotificationAppDelegate.h */,
 				1D3623250D0F684500981E51 /* AWNotificationAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* AWNotificationViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */,
+				FAE1114B122701EB006ED12A /* AWNotification.h */,
+				FAE1114C122701EB006ED12A /* AWNotification.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -177,7 +182,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AWNotificationAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* AWNotificationViewController.m in Sources */,
-				FABE3EE312256B8C00BCE045 /* AWNotification.m in Sources */,
+				FABE3EE312256B8C00BCE045 /* AWNotificationView.m in Sources */,
+				FAE1114D122701EB006ED12A /* AWNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

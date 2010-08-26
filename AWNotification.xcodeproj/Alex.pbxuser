@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* AWNotificationAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {600, 520}}";
+			sepNavIntBoundsRect = "{{0, 0}, {830, 520}}";
 			sepNavSelRange = "{1170, 0}";
-			sepNavVisRange = "{0, 1330}";
+			sepNavVisRange = "{0, 1526}";
 		};
 	};
 	1D3623250D0F684500981E51 /* AWNotificationAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 867}}";
-			sepNavSelRange = "{1855, 0}";
-			sepNavVisRange = "{0, 1957}";
+			sepNavIntBoundsRect = "{{0, 0}, {830, 702}}";
+			sepNavSelRange = "{1170, 0}";
+			sepNavVisRange = "{0, 1395}";
 			sepNavWindowFrame = "{{42, 40}, {777, 962}}";
 		};
 	};
@@ -23,16 +23,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* AWNotificationViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 455}}";
+			sepNavIntBoundsRect = "{{0, 0}, {830, 477}}";
 			sepNavSelRange = "{1173, 0}";
-			sepNavVisRange = "{0, 1320}";
+			sepNavVisRange = "{0, 1327}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* AWNotificationViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1196, 754}}";
+			sepNavIntBoundsRect = "{{0, 0}, {830, 754}}";
 			sepNavSelRange = "{1663, 0}";
-			sepNavVisRange = "{1335, 473}";
+			sepNavVisRange = "{687, 1121}";
 			sepNavWindowFrame = "{{0, 0}, {840, 1028}}";
 		};
 	};
@@ -71,8 +71,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 304546206;
-			PBXWorkspaceStateSaveDate = 304546206;
+			PBXPerProjectTemplateStateSaveDate = 304548686;
+			PBXWorkspaceStateSaveDate = 304548686;
 		};
 		perUserProjectItems = {
 			FABE3EE412256C8900BCE045 = FABE3EE412256C8900BCE045 /* PBXTextBookmark */;
@@ -85,11 +85,18 @@
 			FAE110C01226F7E2006ED12A = FAE110C01226F7E2006ED12A /* PBXTextBookmark */;
 			FAE1113F1226FF8A006ED12A = FAE1113F1226FF8A006ED12A /* PBXTextBookmark */;
 			FAE111401226FF8A006ED12A = FAE111401226FF8A006ED12A /* PBXTextBookmark */;
-			FAE11148122701A0006ED12A /* PBXTextBookmark */ = FAE11148122701A0006ED12A /* PBXTextBookmark */;
-			FAE11149122701A0006ED12A /* PBXTextBookmark */ = FAE11149122701A0006ED12A /* PBXTextBookmark */;
+			FAE11148122701A0006ED12A = FAE11148122701A0006ED12A /* PBXTextBookmark */;
+			FAE11149122701A0006ED12A = FAE11149122701A0006ED12A /* PBXTextBookmark */;
 		};
 		sourceControlManager = FABE3E751225667400BCE045 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	FA3265CF12270BA400D0B36D /* AWNotification.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {830, 3848}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 741}";
 		};
 	};
 	FABE3E661225665900BCE045 /* AWNotification */ = {
@@ -137,6 +144,12 @@
 		indexTemplatePath = "";
 	};
 	FABE3EE112256B8C00BCE045 /* AWNotificationView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AWNotificationView.h;
+		path = /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationView.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {964, 975}}";
 			sepNavSelRange = "{1993, 0}";
@@ -144,6 +157,12 @@
 		};
 	};
 	FABE3EE212256B8C00BCE045 /* AWNotificationView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AWNotificationView.m;
+		path = /Users/Alex/Dropbox/iPhone/Utilities/AWNotification/Classes/AWNotificationView.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {859, 4745}}";
 			sepNavSelRange = "{25, 0}";

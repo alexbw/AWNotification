@@ -34,7 +34,6 @@
 	
 	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStyleFullScreen];
 	notification.message = @"Trying really hard...";
-//	[notification showInView:self.view];
 	[notification show];
 	
 }

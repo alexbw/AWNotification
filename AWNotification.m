@@ -13,9 +13,11 @@
 
 - (void)dealloc
 {
+	if (willNeedToTurnOffOrientationNotifications) {
+		[[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
+	}
 	
-	[font release];
-	
+	[font release];	
 	[super dealloc];
 }
 
@@ -27,7 +29,7 @@
 		self.userInteractionEnabled = NO;
 		
 		switch (style) {
-			case AWNotificationStyleDimScreen:
+			case AWNotificationStyleFullScreen:
 				
 				frame = [[UIScreen mainScreen] bounds];
 				font = [UIFont fontWithName:kDefaultFont size:kFontSizeFullScreen];
@@ -38,6 +40,7 @@
 					self.alpha = 0.85;
 					
 					CGRect labelFrame = CGRectMakeCentered(frame, frame.size.width*0.75, frame.size.height*0.4);
+					labelFrame.origin.y += 75.0f;
 					messageLabel = [[UILabel alloc] initWithFrame:labelFrame];
 					messageLabel.text = @"Hold on...";
 					messageLabel.font = font;
@@ -45,15 +48,29 @@
 					messageLabel.numberOfLines = 3;
 					messageLabel.backgroundColor = [UIColor clearColor];
 					messageLabel.textAlignment = UITextAlignmentCenter;
-					[messageLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleRightMargin];
+					[messageLabel setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin | 
+					 UIViewAutoresizingFlexibleLeftMargin |
+					 UIViewAutoresizingFlexibleTopMargin |
+					 UIViewAutoresizingFlexibleBottomMargin ];
 					
 					[self addSubview:messageLabel];
 					
 					spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-					[spinner setCenter:CGPointMake(frame.size.width/2.0f, frame.size.height - 60.0f)];
-					[spinner setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin];
+					[spinner setCenter:CGPointMake(frame.size.width/2.0f, frame.size.height/2.0)];
+					[spinner setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin | 
+					 UIViewAutoresizingFlexibleLeftMargin |
+					 UIViewAutoresizingFlexibleTopMargin |
+					 UIViewAutoresizingFlexibleBottomMargin];
 					
 					[self addSubview:spinner];
+					
+					[self setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin |
+					 UIViewAutoresizingFlexibleLeftMargin |
+					 UIViewAutoresizingFlexibleTopMargin |
+					 UIViewAutoresizingFlexibleBottomMargin |
+					 UIViewAutoresizingFlexibleWidth |
+					 UIViewAutoresizingFlexibleHeight ];
+					
 					
 				}				
 				
@@ -90,6 +107,12 @@
 					[spinner setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleTopMargin];
 
 					[self addSubview:spinner];
+					
+					[self setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin |
+					 UIViewAutoresizingFlexibleLeftMargin |
+					 UIViewAutoresizingFlexibleTopMargin |
+					 UIViewAutoresizingFlexibleBottomMargin];
+					
 				
 				}
 					
@@ -132,6 +155,12 @@
 					 
 					
 					[self addSubview:spinner];
+					
+					[self setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin |
+					 UIViewAutoresizingFlexibleLeftMargin |
+					 UIViewAutoresizingFlexibleTopMargin |
+					 UIViewAutoresizingFlexibleBottomMargin];
+					
 				
 				
 				}
@@ -139,11 +168,6 @@
 				break;
 				
 		}
-	
-	[self setAutoresizingMask:UIViewAutoresizingFlexibleRightMargin |
-								UIViewAutoresizingFlexibleLeftMargin |
-								UIViewAutoresizingFlexibleTopMargin |
-								UIViewAutoresizingFlexibleBottomMargin];
 	
 	self.autoresizesSubviews = YES;
 	
@@ -198,6 +222,61 @@
 					 completion:^(BOOL done){
 
 					 }];
+	
+	if (![[UIDevice currentDevice] isGeneratingDeviceOrientationNotifications]) {
+		[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+		willNeedToTurnOffOrientationNotifications = YES;
+	}
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(rotate)
+												name:@"UIDeviceOrientationDidChangeNotification" 
+											   object:nil];
+																
+	
+	
+}
+
+- (void)rotate
+{
+	UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+		
+	CGAffineTransform transform;
+	
+	switch (orientation) {
+		case UIDeviceOrientationLandscapeLeft:
+			transform = CGAffineTransformRotate(CGAffineTransformIdentity, M_PI / 2.0);
+			break;
+		case UIDeviceOrientationLandscapeRight:
+			transform = CGAffineTransformRotate(CGAffineTransformIdentity, -M_PI / 2.0);			
+			break;
+		case UIDeviceOrientationPortrait:
+			transform = CGAffineTransformIdentity;
+			break;
+			
+		case UIDeviceOrientationPortraitUpsideDown:
+			transform = CGAffineTransformRotate(CGAffineTransformIdentity, M_PI);						
+			break;
+	}
+	
+	self.transform = transform;
+
+	if (style == AWNotificationStyleFullScreen) {
+		if (UIDeviceOrientationIsPortrait(orientation)) {
+			self.frame = [[UIScreen mainScreen] bounds];
+		}
+		else if (UIDeviceOrientationIsLandscape(orientation)) {
+			CGRect newFrame = [[UIScreen mainScreen] bounds];
+			float newheight = newFrame.size.width;
+//			newFrame.size.width =  newFrame.size.height;
+//			newFrame.size.height = newheight;
+			newFrame.origin.x = 0;
+			newFrame.origin.y = 0;
+			self.frame = newFrame;
+			
+		}
+	}
+	
 	
 }
 

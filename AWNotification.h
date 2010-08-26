@@ -23,7 +23,7 @@ CGRect CGRectMakeCentered(CGRect containingRect, float width, float height);
 
 
 typedef enum {
-	AWNotificationStyleDimScreen,
+	AWNotificationStyleFullScreen,
 	AWNotificationStyleRoundedRect,
 	AWNotificationStylePill
 } AWNotificationStyle;
@@ -38,6 +38,8 @@ typedef enum {
 	AWNotificationStyle style;
 	
 	UIFont *font;
+	
+	BOOL willNeedToTurnOffOrientationNotifications;
 
 }
 
@@ -50,4 +52,5 @@ typedef enum {
 - (void)hideWithMessage:(NSString *)finalMessage; // use if you want to display a goodbye message, like "Success!" or "Upload complete!"
 - (void)hideWithSuccessMessage:(NSString *)finalMessage;
 - (void)hideWithFailureMessage:(NSString *)finalMessage;
+- (void)rotate;
 @end

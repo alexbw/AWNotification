@@ -36,11 +36,11 @@
 				
 				if (self = [super initWithFrame:frame]) {
 				
-					self.backgroundColor = [UIColor colorWithWhite:0.3 alpha:0.5];
-					self.alpha = 0.85;
+					self.backgroundColor = [UIColor colorWithWhite:0.3 alpha:0.75];
+					self.alpha = 1.0;
 					
 					CGRect labelFrame = CGRectMakeCentered(frame, frame.size.width*0.75, frame.size.height*0.4);
-					labelFrame.origin.y += 75.0f;
+					labelFrame.origin.y += 85.0f;
 					messageLabel = [[UILabel alloc] initWithFrame:labelFrame];
 					messageLabel.text = @"Hold on...";
 					messageLabel.font = font;
@@ -212,6 +212,8 @@
 	self.alpha = 0.0;
 	
 	[[[[UIApplication sharedApplication] windows] objectAtIndex:0] addSubview:self];
+	[[[[UIApplication sharedApplication] windows] objectAtIndex:0] bringSubviewToFront:self];
+	
 	
 	[UIView animateWithDuration:0.5 
 						  delay:0.0 
@@ -239,25 +241,43 @@
 
 - (void)rotate
 {
+	
+	
+	
 	UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+	if (orientation == UIDeviceOrientationFaceUp || orientation == UIDeviceOrientationFaceDown)
+		return;
 		
 	CGAffineTransform transform;
 	
-	switch (orientation) {
-		case UIDeviceOrientationLandscapeLeft:
-			transform = CGAffineTransformRotate(CGAffineTransformIdentity, M_PI / 2.0);
-			break;
-		case UIDeviceOrientationLandscapeRight:
-			transform = CGAffineTransformRotate(CGAffineTransformIdentity, -M_PI / 2.0);			
-			break;
-		case UIDeviceOrientationPortrait:
-			transform = CGAffineTransformIdentity;
-			break;
+
 			
-		case UIDeviceOrientationPortraitUpsideDown:
-			transform = CGAffineTransformRotate(CGAffineTransformIdentity, M_PI);						
-			break;
-	}
+		if (UIDeviceOrientationIsLandscape(orientation)) {
+			switch (orientation) {			
+				case UIDeviceOrientationLandscapeLeft:
+					transform = CGAffineTransformRotate(CGAffineTransformIdentity, M_PI / 2.0);
+					break;
+				case UIDeviceOrientationLandscapeRight:
+					transform = CGAffineTransformRotate(CGAffineTransformIdentity, -M_PI / 2.0);			
+					break;
+				default:
+					transform = CGAffineTransformIdentity;
+			}
+		}
+	
+		else {
+			switch (orientation) {
+				case UIDeviceOrientationPortrait:
+					transform = CGAffineTransformIdentity;
+					break;
+					
+				case UIDeviceOrientationPortraitUpsideDown:
+					transform = CGAffineTransformRotate(CGAffineTransformIdentity, M_PI);						
+					break;
+				default:
+					transform = CGAffineTransformIdentity;
+			}
+		}
 	
 	self.transform = transform;
 

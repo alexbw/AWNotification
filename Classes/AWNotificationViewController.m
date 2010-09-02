@@ -34,7 +34,6 @@
 	
 	notification = [[AWNotification alloc] initWithNotificationStyle:AWNotificationStyleFullScreen];
 	notification.message = @"Trying really hard...";
-	[notification show];
 	
 }
 
@@ -45,7 +44,16 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	[notification hideWithFailureMessage:@"Ah, jeez..."];
+	
+	static BOOL didStartNotification = NO;
+	
+	if (!didStartNotification) {
+		[notification show];
+		didStartNotification = YES;
+	}
+	else {
+		[notification hideWithSuccessMessage:@"Congrats!"];
+	}
 }
 
 - (void)dealloc {

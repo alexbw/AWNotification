@@ -170,8 +170,8 @@
 		}
 	
 	self.autoresizesSubviews = YES;
-	
 	self.hidden = YES;
+
     
     return self;
 }
@@ -207,6 +207,9 @@
 - (void)show
 
 {
+	
+	[self rotate];
+	
 	self.hidden = NO;
 	float destAlpha = self.alpha;	
 	self.alpha = 0.0;
